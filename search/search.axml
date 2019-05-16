@@ -1,0 +1,11 @@
+<view class="wen-search-box">
+  <view class="wen-search">
+    <input class="wen-search-input" placeholder="{{placeholder}}" value="{{search_content}}" onInput="synchronization" />
+    <view class="wen-search-clear-button" a:if="{{search_content}}" onTap="clear">
+      <icon class="wen-search-clear-icon" type="clear"></icon>
+    </view>
+    <view class="wen-search-button" onTap="onsearch">
+      <icon type="search"></icon>
+    </view>
+  </view>
+</view>

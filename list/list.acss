@@ -1,0 +1,43 @@
+.wen-list-component{
+  font-size: 3.5vw;
+}
+.wen-list-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.wen-list-component .wen-list-healder{
+  border: 1px solid gray;
+  width: calc(100vw-1px);
+  font-weight: bolder;
+}
+.wen-list-item-single{
+  background: #FBFBFB;
+}
+.wen-list-item-double{
+  background: #F4F4F4;
+}
+.wen-list-item{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  height: 8vw;
+}
+
+.wen-list-component .wen-list-line{
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  color: #666666;
+}
+.wen-list-empty-tips{
+  width: 100vw;
+  padding: 30vw 0px;
+  text-align: center;
+  color: #666666;
+}
+.icon-desc-asc-btn{
+  width: 5vw;
+}

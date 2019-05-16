@@ -1,0 +1,51 @@
+.wen-float-block-box{
+  position: fixed;
+  /* transition: all 1s; */
+  overflow: hidden;
+}
+.wen-float-block-demo{
+  /* width: 100vw; */
+  height: 10vw;
+  background: blue;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  color: white;
+  font-size: 4vw;
+
+}
+
+/* .wen-float-block-flex-right{
+  justify-content: right;
+}
+
+.wen-float-block-flex-left{
+  justify-content: left;
+} */
+
+.wen-float-block-button{
+  display: inline-block;
+  width: 15vw;
+  overflow: hidden;
+  margin: 0px 1vw; 
+  font-size: 3.8vw;
+  white-space: nowrap;
+  /* text-align: center; */
+}
+.wen-float-block-icon{
+  width: 8vw;
+  height: 80%;
+  /* margin-right: 1vw; */
+}
+.wen-float-block-shrink-icon{
+  width: 8vw;
+  height: 80%;
+  transform: rotate(-90deg);
+  /* margin-right: 1vw; */
+}
+.wen-float-block-shrink-icon1{
+  width: 8vw;
+  height: 80%;
+  transform: rotate(90deg);
+  /* margin-left: 1vw; */
+}

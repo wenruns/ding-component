@@ -1,0 +1,20 @@
+<view class="wen-float-block-box" catchTouchMove="moveFloatBlock" catchTouchStart="touchStart" catchTouchEnd="touchEnd" style="{{box_width}}">
+  <slot>
+    <view class="wen-float-block-demo">
+      <block a:if="{{show_button}}">
+        <block a:if="{{is_left}}">
+          <image onTap="shrinkButton" class="wen-float-block-shrink-icon" mode="aspectFit" src="../../../images/icon-shrink-up.png" style="{{icon_style}}" />
+        </block>
+        <block a:for="{{buttons}}" a:key="*this">
+          <view class="wen-float-block-button" data-options="{{item}}" data-index="{{index}}" onTap="buttonClick"  style="{{button_style}}}">{{item.title}}</view>
+        </block>
+        <block a:if="{{!is_left}}">
+          <image onTap="shrinkButton" class="wen-float-block-shrink-icon1" mode="aspectFit" src="../../../images/icon-shrink-up.png" style="{{icon_style}}" />
+        </block>
+      </block>
+      <block a:else>
+        <image onTap="showButton" class="wen-float-block-icon" mode="aspectFit" src="../../../images/icon-add-show.png" style="{{icon_style}}" />
+      </block>
+    </view>
+  </slot>
+</view>
